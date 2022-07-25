@@ -4,6 +4,8 @@ class Example
     static void Main()
     {
         bool prime = true;
+        bool b = false;
+
         for (int i = 2; i < 100; i++)
         {
             for (int j = 2; j < 100; j++)
