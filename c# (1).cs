@@ -4,7 +4,6 @@ class Example
     static void Main()
     {
         bool prime = true;
-        bool b = false;
 
         for (int i = 2; i < 100; i++)
         {
