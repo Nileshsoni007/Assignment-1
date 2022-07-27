@@ -1,55 +1,6 @@
-  using System;
-class Example
-{
-    static void Main()
-    {
-        bool prime = true;
-
-        for (int i = 2; i < 100; i++)
-        {
-            for (int j = 2; j < 100; j++)
-            {
-                if (i != j && i % j == 0)
-                {
-                    prime = false;
-                }
-
-            }
-            if (prime)
-            {
-                //Console.WriteLine("primes Number....");
-                Console.WriteLine(i);
-            }
-            prime = true;
-        }
-    }
-}
-
-
+  //1.Write a C# Sharp program to print Hello and your name in a separate line.
 
 using System;
-class Example
-{
-    static  void Main()
-    {
-        int a = 10, b = 50, c = 17;
-        console
-        if (a > b  && a > c)
-        {
-            Console.WriteLine(a);
-        }
-        else if (b > c && b > a)
-        {
-            Console.WriteLine(b);
-        }
-        else
-        {
-            Console.WriteLine(c);
-        }
-    }
-}
-
-1.using System;
 
 class Example1
 {
@@ -58,9 +9,8 @@ class Example1
         Console.WriteLine("Hello : Nilesh ");
     }
 }
-----------------------------------------------------------------------------------------------------------------------
-2.
-//Write a C# Sharp program to print the sum of two numbers
+
+//2.Write a C# Sharp program to print the sum of two numbers
 using System;
 class Example
 {
@@ -71,8 +21,7 @@ class Example
         
     }
 }
-3.
-//Write a C# Sharp program to print the division of two numbers
+//3.Write a C# Sharp program to print the division of two numbers
 using System;
 class Example
 {
@@ -83,8 +32,7 @@ class Example
         
     }
 }
-
-4.
+//4.
 using System;
 class Example
 {
@@ -97,7 +45,7 @@ class Example
     }
 }
 
-5.
+//5.Write a C# Sharp program to swap two numbers.
 using System;
 class Example5
 {
@@ -118,7 +66,8 @@ class Example5
     }
 }
 
-6.
+/*6.Write a C# Sharp program to print the output of multiplication of three numbers which will be 
+entered by the user.*/
 
 using System;
 class Example6
@@ -142,8 +91,8 @@ class Example6
     }
 }
 
-
-7.
+/*7.. Write a C# Sharp program to print on screen the output of adding, subtracting, multiplying and 
+dividing of two numbers which will be entered by the user.*/
 
 using System;
 class Example7
@@ -168,7 +117,7 @@ class Example7
     }
 }
 
-8.
+//8.Write a C# Sharp program that takes a number as input and print its multiplication table.
 
 using System;
 class Example8
@@ -186,11 +135,36 @@ class Example8
     }
 }
 
-9.
+//9.Write a C# Sharp program that takes four numbers as input to calculate and print the average. 
 
-	
+using System;
+using System.IO;
+public class Exercise9
+{
+    public static void Main()
+    {
+        double number1, number2, number3, number4;
 
-10.
+        Console.Write("Enter the First number: ");
+        number1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter the Second number: ");
+        number2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter the third number: ");
+        number3 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter the fourth number: ");
+        number4 = Convert.ToDouble(Console.ReadLine());
+
+        double result = (number1 + number2 + number3 + number4) / 4;
+        Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4} ",
+     number1, number2, number3, number4, result);
+    }
+}
+
+/*10.Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of 
+(x+y).z and x.y + y.z.*/
 
 using System;
 class Example5
@@ -215,7 +189,8 @@ class Example5
     }
 }
 
-11.
+/*11.Write a C# Sharp program that takes an age (for example 20) as input and prints something 
+as "You look older than 20".*/
 
 using System;
 class Example11
@@ -228,7 +203,9 @@ class Example11
     }
 }
 
-12.
+/*12.Write a C# program to that takes a number as input and display it four times in a row 
+(separated by blank spaces), and then four times in the next row, with no separation. You should 
+do it two times: Use Console. Write and then use {0}. */
 
 using System;
 class Example12
@@ -244,7 +221,8 @@ class Example12
     }
 }
 
-13.
+/*13.Write a C# program that takes a number as input and then displays a rectangle of 3 columns 
+wide and 5 rows tall using that digit. */
 
 using System;
 class Example12
@@ -273,7 +251,7 @@ class Example12
     }
 }
 
-14.
+//14.Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit.
 
 using System;
 public class Exercise14
@@ -287,7 +265,10 @@ public class Exercise14
         Console.WriteLine("Fahrenheit = "+ (celsius * 9/5 + 32));
     }
 }
-15.
+
+/*15.Write a C# program remove specified a character from a non-empty string using index of a 
+character.*/
+
 
 using System;
 public class Exercise15
@@ -300,7 +281,8 @@ public class Exercise15
     }
 }
 
-16.
+/*16.Write a C# program to create a new string from a given string (length 1 or more) with the 
+first character added at the front and back*/
 
 using System;
 public class Exercise15
@@ -315,9 +297,11 @@ public class Exercise15
         Console.WriteLine(s);
     }
 }
-17.
-using System;
 
+/*17.Write a C# program to check two given integers and return true if one is negative and one is 
+positive*/
+
+using System;
 class Example17
 {
     static void Main()
@@ -339,7 +323,9 @@ class Example17
 
     }
 }
-18.
+
+/*18.Write a C# program to compute the sum of two given integers, if two values are equal then 
+return the triple of their sum.*/
 
 using System;
 
@@ -361,7 +347,10 @@ class Example1
         }
    }
 }
-19.
+
+/*19.Write a C# program to get the absolute value of the difference between two given numbers. 
+Return double the absolute value of the difference if the first number is greater than second 
+number.*/
 
 using System;
 
@@ -372,7 +361,6 @@ class Example1
         Console.WriteLine(result(13, 11));
         Console.WriteLine(result(50, 49));
         Console.WriteLine(result(0, 23));
-
    }
      static int result(int a, int b)
     {
@@ -384,7 +372,9 @@ class Example1
     }
 
 }
-20.
+
+/*20.Write a C# program to check the sum of the two given integers and return true if one of the 
+integer is 20 or if their sum is 20.*/
 
 using System;
 
@@ -412,7 +402,9 @@ class Example20
         return false;
     }
 }
-21.
+
+/*21.Write a C# program to check if an given integer is within 20 of 100 or 200*/
+
 using System;
 
 class Example21
@@ -433,7 +425,8 @@ class Example21
 
 }
 
-22.
+//22.Write a C# program to convert a given string into lowercase.
+
 using System;
 
 class Example22
@@ -449,7 +442,9 @@ class Example22
     }
     
 }
-23.
+
+//23.Write a C# program to print the odd numbers from 1 to 99. Prints one number per line.
+
 using System;
 
 class Exaple23
@@ -466,7 +461,7 @@ class Exaple23
     }
 }
 
-24.
+//24.Write a C# program to compute the sum of the first 500 prime numbers.
 	
 using System;
 public class Exercise24
@@ -505,7 +500,8 @@ public class Exercise24
     }
 }
 
-25.
+//25.Write a C# program and compute the sum of the digits of an integer
+
 using System;
 public class Exercise25
 {
@@ -525,9 +521,9 @@ public class Exercise25
         Console.WriteLine(" sum of the digits = "+sum);
     }
 }
-26.
 
-// C# program to reverse a string
+//26.Write a C# program to reverse the words of a sentence.
+
 using System;
 public class ReverseWords
 {
@@ -543,60 +539,37 @@ public class ReverseWords
         Console.WriteLine(ans.Substring(0,ans.Length));
     }
 }
-27.
+
+//27.Write a C# program to find the size of a specified file in bytes.
 
 
-28.
+//28.Write a C# program to convert a hexadecimal number to decimal number.
 
-// C# program to convert
-// hexadecimal to decimal
 using System;
 
 class GFG
 {
-    // Function to convert
-    // hexadecimal to decimal
     static int hexadecimalToDecimal(String hexVal)
     {
         int len = hexVal.Length;
-
-        // Initializing base1 value
-        // to 1, i.e 16^0
         int base1 = 1;
 
         int dec_val = 0;
-
-        // Extracting characters as
-        // digits from last character
         for (int i = len - 1; i >= 0; i--)
         {
-            // if character lies in '0'-'9',
-            // converting it to integral 0-9
-            // by subtracting 48 from ASCII value
             if (hexVal[i] >= '0' && hexVal[i] <= '9')
             {
                 dec_val += (hexVal[i] - 48) * base1;
-
-                // incrementing base1 by power
                 base1 = base1 * 16;
             }
-
-            // if character lies in 'A'-'F' ,
-            // converting it to integral
-            // 10 - 15 by subtracting 55
-            // from ASCII value
             else if (hexVal[i] >= 'A' && hexVal[i] <= 'F')
             {
                 dec_val += (hexVal[i] - 55) * base1;
-
-                // incrementing base1 by power
                 base1 = base1 * 16;
             }
         }
         return dec_val;
     }
-
-    // Driver Code
     static void Main()
     {
         String hexNum = "1A";
@@ -604,9 +577,7 @@ class GFG
     }
 }
 
-// This code is contributed by mits
-
-29.
+//29. Write a C# program to multiply corresponding elements of two arrays of integers
 
 using System;
 using System.Collections.Generic;
@@ -640,7 +611,8 @@ public class Exercise29
     }
 }
 
-30.
+/*30.Write a C# program to create a new string of four copies, taking last four characters from a 
+given string. If the length of the given string is less than 4 return the original one.*/
 
 using System;
 
@@ -661,7 +633,8 @@ public class Exercise30
         }
     }
 }
-31.
+
+//31.Write a C# program to check if a given positive number is a multiple of 3 or a multiple of 7. 
 
 using System;
 public class Exercise31
@@ -677,7 +650,7 @@ public class Exercise31
     }
 }
 
-32.
+//32.Write a C# program to check if a string starts with a specified word.
 
 using System;
 
@@ -697,7 +670,9 @@ public class Exercise34
         }
     }
 }
-33.
+
+/*33.Write a C# program to check two given numbers where one is less than 100 and other is 
+greater than 200*/
 
 using System;
 
@@ -720,7 +695,9 @@ public class Exercise33
     }
 }
 
-34.
+/*34.Write a C# program to check if an integer (from the two given integers) is in the range -10 to 
+10.
+*/
 
 using System;
 
@@ -743,7 +720,8 @@ public class Exercise33
     }
 }
 
-35.
+/*35.Write a C# program to check if "HP" appears at second position in a string and returns the 
+string without "HP"*/
 
 using System;
 public class Exercise34
@@ -765,7 +743,7 @@ public class Exercise34
     }
 }
 
-36.
+//36.Write a C# program to find the largest and lowest values from three integer values.
 
 using System;
 public class Exercise33
@@ -804,7 +782,9 @@ public class Exercise33
         }
     }
 }
-37.
+/*37.Write a C# program to check the nearest value of 20 of two given integers and return 0 if two 
+numbers are same*/
+
 using System;
 public class Exercise33
 {
@@ -831,7 +811,7 @@ public class Exercise33
     }
 }
 
-38.
+/*38.Write a C# program to count a specified number in a given array of integers.*/
 
 using System;
 public class Exercise33
@@ -854,7 +834,10 @@ public class Exercise33
         Console.WriteLine(count);
     }
 }
-39.
+
+/*39.Write a C# program to check if a number appears as either the first or last element of an array 
+of integers and the length is 1 or more*/
+
 using System;
 public class Exercise33
 {
@@ -875,7 +858,7 @@ public class Exercise33
     }
 }
 
-40.
+//40.Write a C# program to compute the sum of all the elements of an array of integers
 
 using System;
 public class Exercise40
@@ -894,7 +877,9 @@ public class Exercise40
     }
 }
 
-41.
+/*41.Write a C# program to check if the first element or the last element of the two arrays ( length 
+1 or more) are equal*/
+
 using System;
 public class Exercise41
 {
@@ -912,7 +897,9 @@ public class Exercise41
         }
     }
 }
-42.
+
+//42.Write a C# program to rotate an array (length 3) of integers in left direction
+
 using System;
 public class Exercise50
 {
@@ -930,7 +917,10 @@ public class Exercise50
 
     }
 }
-43.
+
+/*43.. Write a C# program to get the larger value between first and last element of an array (length 
+3) of integers.*/
+
 using System;
 public class Code
 {
@@ -951,7 +941,9 @@ public class Code
         Console.WriteLine("Larger Value between first and last element of array : {0}", largeValue(arr));
     }
 }
-44.
+
+/*44.Write a C# program to create a new array of length containing the middle elements of three 
+arrays (each length 3) of integers*/
 
 using System;
 class example44
@@ -986,7 +978,9 @@ class example44
         Console.WriteLine(" ");
     }
 }
-45.
+
+//45.Write a C# program to check if an array contains an odd number.
+
 using System;
 class example45
 {
